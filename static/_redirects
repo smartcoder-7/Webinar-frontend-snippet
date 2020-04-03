@@ -1,0 +1,4 @@
+/webinar/* /webinar/index.html 200
+/portal/* /webinar/index.html 200
+/profile/* /profile/index.html 200
+/* /index.html 200

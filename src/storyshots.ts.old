@@ -1,0 +1,6 @@
+// @ts-ignore
+//import initStoryshots from "@storybook/addon-storyshots"
+// @ts-ignore
+//import { imageSnapshot } from "addon-storyshots-wdio"
+
+//initStoryshots({ suite: "Image storyshots", test: imageSnapshot() })

@@ -1,0 +1,20 @@
+overwrite: true
+schema: "src/fromBackend/schema.graphql"
+generates:
+  src/fromBackend/schema.tsx:
+    documents: [./src/hooks/*.tsx]
+    # preset: import-types
+    # presetConfig:
+    #  typesPath: './schema'
+    config:
+      reactApolloVersion: 2
+      withHooks: true
+      gqlImport: graphql-tag
+      withComponent: true
+      withHOC: false
+      skipTypename: false
+      preResolveTypes: true
+    plugins:
+      - "typescript"
+      - "typescript-react-apollo"
+      - "typescript-operations"

@@ -1,0 +1,16 @@
+{
+  "name": "EWebinar GraphQL Schema",
+  "schemaPath": "./src/fromBackend/schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "http://localhost:3000/graphql",
+        "headers": {
+          "user-agent": "JS GraphQL",
+          "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6IkFkbWluIiwidGVhbUlkIjozLCJpYXQiOjE1ODEzODY0MzIsImV4cCI6MTU4MTQ3MjgzMn0.Y1CRxT9z_F38TQ-9q6PBtUytaw49xJU9BlixD_vd-cw"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

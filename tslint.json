@@ -1,0 +1,27 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint", "tslint-react", "tslint-config-prettier", "tslint-react-hooks"],
+  "jsRules": {},
+  "rules": {
+    "jsx-boolean-value": false,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "import-name": false,
+    "jsx-no-lambda": false,
+
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "typedef": [
+      true,
+      "parameter",
+      "member-variable-declaration"
+    ],
+    "react-hooks-nesting": "warning"
+  },
+  "rulesDirectory": []
+}

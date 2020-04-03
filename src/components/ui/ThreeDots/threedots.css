@@ -1,0 +1,37 @@
+/* loading dots */
+.loading{
+    margin-top: 5px;
+    width: 60px;
+    position: relative;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 45px;
+    background: black;
+    line-height: 0;
+    padding-top: 5px;
+    padding-left: 12px;
+}
+.loading:after {
+    content: ' .';
+    animation: dots 1s steps(5, end) infinite;}
+  
+  @keyframes dots {
+    0%, 20% {
+      color: rgba(162,178,180,1);
+      text-shadow:
+        .25em 0 0 rgba(162,178,180,1),
+        .5em 0 0 rgba(162,178,180,1);
+    }
+    40% {
+      color: rgba(162,178,180,10.5);
+      text-shadow:
+        .25em 0 0 rgba(0,0,0,0),
+        .5em 0 0 rgba(0,0,0,0);}
+    60% {
+      text-shadow:
+        .25em 0 0 rgba(162,178,180,1),
+        .5em 0 0 rgba(0,0,0,0);}
+    80%, 100% {
+      text-shadow:
+        .25em 0 0 rgba(162,178,180,1),
+        .5em 0 0 rgba(162,178,180,1);}}
